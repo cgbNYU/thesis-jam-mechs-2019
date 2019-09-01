@@ -78,7 +78,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Card Text 2
+  m_Text: Lose Energy.
 --- !u!1 &8539568005694190968
 GameObject:
   m_ObjectHideFlags: 0
@@ -92,7 +92,7 @@ GameObject:
   - component: {fileID: 8539568005694190965}
   - component: {fileID: 8539568005694190966}
   m_Layer: 5
-  m_Name: BasicCard
+  m_Name: ExposedCircuitry
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -143,7 +143,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.4669811, b: 0.4669811, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -172,14 +172,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39d504b7a01f54a84ba20c4e86b02e8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _cardName: Card Name
-  _energyCost: 0
-  _cardText1: Card Text 1
-  _cardText2: Card Text 2
-  _flavor: Spicy flavour, baby.
+  _cardName: Exposed Circuitry
+  _energyCost: 1
+  _cardText1: Move Speed down.
+  _cardText2: Lose Energy.
+  _flavor: In other circumstances, you might have called that shower of sparks pretty.
   _atkMod: 0
-  _spdMod: 1
-  _nrgMod: 0
+  _spdMod: 0
+  _nrgMod: -1
   _jmpMod: 0
 --- !u!1 &8539568005811491975
 GameObject:
@@ -259,7 +259,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Card Name
+  m_Text: Exposed Circuitry
 --- !u!1 &8539568005886051171
 GameObject:
   m_ObjectHideFlags: 0
@@ -338,7 +338,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Card Text 1
+  m_Text: Move Speed down.
 --- !u!1 &8539568006326224667
 GameObject:
   m_ObjectHideFlags: 0
@@ -417,7 +417,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Spicy flavour, baby.
+  m_Text: In other circumstances, you might have called that shower of sparks pretty.
 --- !u!1 &8539568006574179466
 GameObject:
   m_ObjectHideFlags: 0
@@ -496,4 +496,4 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 0
+  m_Text: 1
