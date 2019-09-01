@@ -120,7 +120,10 @@ public class MechModel : MonoBehaviour
     {
         for (int i = 0; i <= cards.Length; i++)
         {
-            
+            accelMod += cards[i].SpdMod;
+            attackMod += cards[i].AtkMod;
+            jumpMod += cards[i].JmpMod;
+            energy += cards[i].NrgMod;
         }
     }
 }
