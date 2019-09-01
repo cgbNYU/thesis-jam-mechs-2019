@@ -35,7 +35,6 @@ public class CardManager : MonoBehaviour
     //Initialize Vars
     private void Init()
     {
-        _parent = GameObject.Find("Cards").transform;
         _discard = new Stack<Card>();
         _activeCards = new Card[5];
         _activeCardObjects = new GameObject[5];
@@ -92,8 +91,12 @@ public class CardManager : MonoBehaviour
         {
             if(_deck.Count == 0)
                 ShuffleDeck();
+            _parent = GameObject.Find("Card" + (i+1).ToString()).transform;
+            Debug.Log(_parent.name);
             _activeCards[i] = _deck.Pop();
-            _activeCardObjects[i] = Instantiate(_activeCards[i].gameObject, new Vector3(x, 100, 1), Quaternion.identity, _parent);
+            _activeCardObjects[i] = Instantiate(_activeCards[i].gameObject, _parent.position, Quaternion.identity, _parent);
+            _activeCardObjects[i].transform.localScale /= 2; 
+            _activeCardObjects[i].GetComponent<RectTransform>().localPosition += new Vector3(50,60,0);
             x += 200;
         }
         //Model.ApplyMods(_activeCards);
