@@ -94,9 +94,9 @@ public class CardManager : MonoBehaviour
                 ShuffleDeck();
             _activeCards[i] = _deck.Pop();
             _activeCardObjects[i] = Instantiate(_activeCards[i].gameObject, new Vector3(x, 100, 1), Quaternion.identity, _parent);
-            x += 175;
+            x += 200;
         }
-        Model.ApplyMods(_activeCards);
+        //Model.ApplyMods(_activeCards);
     }
     
     //Discard and deal
