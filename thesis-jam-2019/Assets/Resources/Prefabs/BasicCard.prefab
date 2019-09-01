@@ -92,7 +92,7 @@ GameObject:
   - component: {fileID: 8539568005694190965}
   - component: {fileID: 8539568005694190966}
   m_Layer: 5
-  m_Name: Card
+  m_Name: BasicCard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -172,13 +172,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39d504b7a01f54a84ba20c4e86b02e8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _cardName: CardName
+  _cardName: Card Name
   _energyCost: 0
   _cardText1: Card Text 1
   _cardText2: Card Text 2
-  _flavor: Flavor Text
+  _flavor: Spicy flavour, baby.
   _atkMod: 0
-  _spdMod: 0
+  _spdMod: 1
   _nrgMod: 0
   _jmpMod: 0
 --- !u!1 &8539568005811491975
@@ -215,8 +215,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.19996643, y: 118}
-  m_SizeDelta: {x: 202, y: 30}
+  m_AnchoredPosition: {x: -24, y: 118}
+  m_SizeDelta: {x: 148, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8539568005811491972
 CanvasRenderer:
@@ -259,7 +259,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: CardName
+  m_Text: Card Name
 --- !u!1 &8539568005886051171
 GameObject:
   m_ObjectHideFlags: 0
@@ -417,7 +417,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Flavor Text
+  m_Text: Spicy flavour, baby.
 --- !u!1 &8539568006574179466
 GameObject:
   m_ObjectHideFlags: 0
