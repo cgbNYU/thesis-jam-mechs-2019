@@ -1,50 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c3510d78-ded8-4969-8453-6cff999ac820" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.thesis-jam-2019/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.thesis-jam-2019/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MechModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MechModel.cs" afterDir="false" />
-    </list>
+    <list default="true" id="c3510d78-ded8-4969-8453-6cff999ac820" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-1659708951">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="4" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="cs" value="4" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="C#" value="4" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="cs" value="3731" />
-          <entry key="txt" value="132" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="C#" value="3731" />
-          <entry key="PLAIN_TEXT" value="132" />
-        </counts>
-      </usages-collector>
-    </session>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="thesis-jam-2019" />
@@ -54,39 +16,39 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/MechController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="37" column="41" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
+            <state relative-caret-position="345">
+              <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
               <folding>
-                <marker date="1567360564112" expanded="false" signature="6:93" ph="..." />
-                <marker date="1567360564112" expanded="true" signature="138:1169" ph="{...}" />
-                <marker date="1567360564112" expanded="true" signature="431:552" ph="{...}" />
-                <marker date="1567360564112" expanded="true" signature="610:664" ph="{...}" />
-                <marker date="1567360564112" expanded="true" signature="686:890" ph="{...}" />
-                <marker date="1567360564112" expanded="true" signature="912:1167" ph="{...}" />
-                <marker date="1567360564112" expanded="true" signature="1050:1125" ph="/* clamp the values so you can't flip the camera ... */" />
+                <marker date="1567363011263" expanded="false" signature="6:93" ph="..." />
+                <marker date="1567363011263" expanded="true" signature="138:1169" ph="{...}" />
+                <marker date="1567363011263" expanded="true" signature="431:552" ph="{...}" />
+                <marker date="1567363011263" expanded="true" signature="610:664" ph="{...}" />
+                <marker date="1567363011263" expanded="true" signature="686:890" ph="{...}" />
+                <marker date="1567363011263" expanded="true" signature="912:1167" ph="{...}" />
+                <marker date="1567363011263" expanded="true" signature="1050:1125" ph="/* clamp the values so you can't flip the camera ... */" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/MechModel.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="106" column="8" lean-forward="true" selection-start-line="106" selection-start-column="8" selection-end-line="106" selection-end-column="8" />
+            <state relative-caret-position="765">
+              <caret line="60" column="44" selection-start-line="60" selection-start-column="44" selection-end-line="60" selection-end-column="44" />
               <folding>
-                <marker date="1567362644822" expanded="false" signature="6:78" ph="..." />
-                <marker date="1567362644822" expanded="true" signature="118:3275" ph="{...}" />
-                <marker date="1567362644822" expanded="true" signature="961:1237" ph="{...}" />
-                <marker date="1567362644822" expanded="true" signature="1295:1323" ph="{...}" />
-                <marker date="1567362644822" expanded="true" signature="1377:1814" ph="{...}" />
-                <marker date="1567362644822" expanded="true" signature="1856:2268" ph="{...}" />
-                <marker date="1567362644822" expanded="true" signature="2292:2859" ph="{...}" />
-                <marker date="1567362644822" expanded="true" signature="2577:2853" ph="/* if (Mathf.Abs(acceleration.x) &lt; .02) ... */" />
-                <marker date="1567362644822" expanded="true" signature="2883:2904" ph="{...}" />
-                <marker date="1567362644822" expanded="true" signature="2975:3139" ph="{...}" />
-                <marker date="1567362644822" expanded="true" signature="3180:3273" ph="{...}" />
-                <marker date="1567362644822" expanded="true" signature="3234:3267" ph="{...}" />
+                <marker date="1567363011264" expanded="false" signature="6:78" ph="..." />
+                <marker date="1567363011264" expanded="true" signature="118:3275" ph="{...}" />
+                <marker date="1567363011264" expanded="true" signature="961:1237" ph="{...}" />
+                <marker date="1567363011264" expanded="true" signature="1295:1323" ph="{...}" />
+                <marker date="1567363011264" expanded="true" signature="1377:1814" ph="{...}" />
+                <marker date="1567363011264" expanded="true" signature="1856:2268" ph="{...}" />
+                <marker date="1567363011264" expanded="true" signature="2292:2859" ph="{...}" />
+                <marker date="1567363011264" expanded="true" signature="2577:2853" ph="/* if (Mathf.Abs(acceleration.x) &lt; .02) ... */" />
+                <marker date="1567363011264" expanded="true" signature="2883:2904" ph="{...}" />
+                <marker date="1567363011264" expanded="true" signature="2975:3139" ph="{...}" />
+                <marker date="1567363011264" expanded="true" signature="3180:3273" ph="{...}" />
+                <marker date="1567363011264" expanded="true" signature="3234:3267" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -95,12 +57,24 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
+            <state relative-caret-position="90">
               <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
               <folding>
-                <marker date="1567285082951" expanded="false" signature="6:78" ph="..." />
-                <marker date="1567285082951" expanded="true" signature="125:737" ph="{...}" />
-                <marker date="1567285082951" expanded="true" signature="273:735" ph="{...}" />
+                <marker date="1567360043868" expanded="false" signature="6:78" ph="..." />
+                <marker date="1567360043868" expanded="true" signature="125:737" ph="{...}" />
+                <marker date="1567360043868" expanded="true" signature="273:735" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/StoreManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1567360043873" expanded="false" signature="6:78" ph="..." />
+                <marker date="1567360043873" expanded="true" signature="121:382" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -112,6 +86,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/StoreManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MechModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MechController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -125,16 +100,10 @@
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+    <option name="x" value="-9" />
+    <option name="width" value="978" />
+    <option name="height" value="1039" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -142,154 +111,21 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
+        <option name="show-project-names" value="true" />
       </pane>
-      <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Resources/Prefabs/BasicCard.prefab</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Scripts/CardManager.cs</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Resources/Prefabs/CompressionPiston.prefab</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Resources/Prefabs/CompressionPiston.prefab.meta</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Resources/Prefabs/ExposedCircuitry.prefab</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Resources/Prefabs/ExposedCircuitry.prefab.meta</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Resources/Prefabs/Generator.prefab</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Resources/Prefabs/Generator.prefab.meta</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Resources/Prefabs/IridiumSparkPlugs.prefab</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Resources/Prefabs/IridiumSparkPlugs.prefab.meta</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Resources/Prefabs/OiledHinges.prefab</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Resources/Prefabs/OiledHinges.prefab.meta</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Resources/Prefabs/PneumaticBoots.prefab</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Resources/Prefabs/PneumaticBoots.prefab.meta</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Resources/Prefabs/RevvingUp.prefab</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Resources/Prefabs/RevvingUp.prefab.meta</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Resources/Prefabs/RustedKnee.prefab</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Resources/Prefabs/RustedKnee.prefab.meta</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Resources/Prefabs/SolarPanels.prefab</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Resources/Prefabs/SolarPanels.prefab.meta</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Resources/Prefabs/SparkPlugs.prefab</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Resources/Prefabs/SparkPlugs.prefab.meta</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Resources/Prefabs/ThermalHeatSink.prefab</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Resources/Prefabs/ThermalHeatSink.prefab.meta</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Scenes/CardMaking.unity</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Scenes/CardMaking.unity.meta</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -317,8 +153,8 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Attach to Unity Editor.Attach to Unity Editor &amp; Play" />
       <item itemvalue="Attach to Unity Editor.Attach to Unity Editor" />
+      <item itemvalue="Attach to Unity Editor.Attach to Unity Editor &amp; Play" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -357,11 +193,18 @@
       <option name="project" value="LOCAL" />
       <updated>1567361363820</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Merge">
+      <created>1567363176962</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1567363176962</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16218000" />
+    <option name="totallyTimeSpent" value="16298000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -373,11 +216,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24966443" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498" weight="0.25302014" />
+      <window_info id="Structure" order="1" sideWeight="0.502" side_tool="true" weight="0.25302014" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -388,12 +230,12 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" sideWeight="0.49932885" visible="true" weight="0.3297587" />
       <window_info anchor="bottom" id="Unity" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unit Tests" order="12" />
       <window_info anchor="bottom" id="Terminal" order="13" />
-      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.50067115" side_tool="true" visible="true" weight="0.3297587" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -407,14 +249,38 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added inputs to controller&#10;added some sudo to the model about movement" />
     <MESSAGE value="basic physics in progress" />
     <MESSAGE value="basic movement complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="basic movement complete" />
+    <MESSAGE value="Merge" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -430,49 +296,49 @@
     <entry file="file://$PROJECT_DIR$/Assets/CameraController.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
+        <state relative-caret-position="90">
           <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
           <folding>
-            <marker date="1567285082951" expanded="false" signature="6:78" ph="..." />
-            <marker date="1567285082951" expanded="true" signature="125:737" ph="{...}" />
-            <marker date="1567285082951" expanded="true" signature="273:735" ph="{...}" />
+            <marker date="1567360043868" expanded="false" signature="6:78" ph="..." />
+            <marker date="1567360043868" expanded="true" signature="125:737" ph="{...}" />
+            <marker date="1567360043868" expanded="true" signature="273:735" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/MechController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="37" column="41" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
+        <state relative-caret-position="345">
+          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
           <folding>
-            <marker date="1567360564112" expanded="false" signature="6:93" ph="..." />
-            <marker date="1567360564112" expanded="true" signature="138:1169" ph="{...}" />
-            <marker date="1567360564112" expanded="true" signature="431:552" ph="{...}" />
-            <marker date="1567360564112" expanded="true" signature="610:664" ph="{...}" />
-            <marker date="1567360564112" expanded="true" signature="686:890" ph="{...}" />
-            <marker date="1567360564112" expanded="true" signature="912:1167" ph="{...}" />
-            <marker date="1567360564112" expanded="true" signature="1050:1125" ph="/* clamp the values so you can't flip the camera ... */" />
+            <marker date="1567363011263" expanded="false" signature="6:93" ph="..." />
+            <marker date="1567363011263" expanded="true" signature="138:1169" ph="{...}" />
+            <marker date="1567363011263" expanded="true" signature="431:552" ph="{...}" />
+            <marker date="1567363011263" expanded="true" signature="610:664" ph="{...}" />
+            <marker date="1567363011263" expanded="true" signature="686:890" ph="{...}" />
+            <marker date="1567363011263" expanded="true" signature="912:1167" ph="{...}" />
+            <marker date="1567363011263" expanded="true" signature="1050:1125" ph="/* clamp the values so you can't flip the camera ... */" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/MechModel.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="106" column="8" lean-forward="true" selection-start-line="106" selection-start-column="8" selection-end-line="106" selection-end-column="8" />
+        <state relative-caret-position="765">
+          <caret line="60" column="44" selection-start-line="60" selection-start-column="44" selection-end-line="60" selection-end-column="44" />
           <folding>
-            <marker date="1567362644822" expanded="false" signature="6:78" ph="..." />
-            <marker date="1567362644822" expanded="true" signature="118:3275" ph="{...}" />
-            <marker date="1567362644822" expanded="true" signature="961:1237" ph="{...}" />
-            <marker date="1567362644822" expanded="true" signature="1295:1323" ph="{...}" />
-            <marker date="1567362644822" expanded="true" signature="1377:1814" ph="{...}" />
-            <marker date="1567362644822" expanded="true" signature="1856:2268" ph="{...}" />
-            <marker date="1567362644822" expanded="true" signature="2292:2859" ph="{...}" />
-            <marker date="1567362644822" expanded="true" signature="2577:2853" ph="/* if (Mathf.Abs(acceleration.x) &lt; .02) ... */" />
-            <marker date="1567362644822" expanded="true" signature="2883:2904" ph="{...}" />
-            <marker date="1567362644822" expanded="true" signature="2975:3139" ph="{...}" />
-            <marker date="1567362644822" expanded="true" signature="3180:3273" ph="{...}" />
-            <marker date="1567362644822" expanded="true" signature="3234:3267" ph="{...}" />
+            <marker date="1567363011264" expanded="false" signature="6:78" ph="..." />
+            <marker date="1567363011264" expanded="true" signature="118:3275" ph="{...}" />
+            <marker date="1567363011264" expanded="true" signature="961:1237" ph="{...}" />
+            <marker date="1567363011264" expanded="true" signature="1295:1323" ph="{...}" />
+            <marker date="1567363011264" expanded="true" signature="1377:1814" ph="{...}" />
+            <marker date="1567363011264" expanded="true" signature="1856:2268" ph="{...}" />
+            <marker date="1567363011264" expanded="true" signature="2292:2859" ph="{...}" />
+            <marker date="1567363011264" expanded="true" signature="2577:2853" ph="/* if (Mathf.Abs(acceleration.x) &lt; .02) ... */" />
+            <marker date="1567363011264" expanded="true" signature="2883:2904" ph="{...}" />
+            <marker date="1567363011264" expanded="true" signature="2975:3139" ph="{...}" />
+            <marker date="1567363011264" expanded="true" signature="3180:3273" ph="{...}" />
+            <marker date="1567363011264" expanded="true" signature="3234:3267" ph="{...}" />
           </folding>
         </state>
       </provider>
