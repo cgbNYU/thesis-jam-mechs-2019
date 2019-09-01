@@ -92,7 +92,7 @@ GameObject:
   - component: {fileID: 8539568005694190965}
   - component: {fileID: 8539568005694190966}
   m_Layer: 5
-  m_Name: SparkPlugs
+  m_Name: IridiumSparkPlugs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -143,7 +143,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.745283, g: 0.745283, b: 0.745283, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -173,12 +173,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _cardName: Iridium Spark Plugs
-  _energyCost: 2
+  _energyCost: 1
   _cardText1: Increases Move Speed.
   _cardText2: 
   _flavor: A patented alloy that lets you push your engine beyond its limits.
   _atkMod: 0
-  _spdMod: 2
+  _spdMod: 1
   _nrgMod: 0
   _jmpMod: 0
 --- !u!1 &8539568005811491975

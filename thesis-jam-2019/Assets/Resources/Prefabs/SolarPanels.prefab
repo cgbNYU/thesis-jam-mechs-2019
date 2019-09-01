@@ -92,7 +92,7 @@ GameObject:
   - component: {fileID: 8539568005694190965}
   - component: {fileID: 8539568005694190966}
   m_Layer: 5
-  m_Name: CompressionPiston
+  m_Name: SolarPanels
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -143,7 +143,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.745283, g: 0.745283, b: 0.745283, a: 1}
+  m_Color: {r: 0.74509805, g: 0.74509805, b: 0.74509805, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -172,14 +172,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39d504b7a01f54a84ba20c4e86b02e8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _cardName: Compression Piston
-  _energyCost: 2
-  _cardText1: Increases Move Speed greatly.
+  _cardName: Solar Panels
+  _energyCost: 0
+  _cardText1: Generates energy when shuffled back into deck.
   _cardText2: 
-  _flavor: Burns fuel efficiently and cleanly.
+  _flavor: You gotta play the long-term game.
   _atkMod: 0
-  _spdMod: 3
-  _nrgMod: 0
+  _spdMod: 0
+  _nrgMod: 2
   _jmpMod: 0
 --- !u!1 &8539568005811491975
 GameObject:
@@ -259,7 +259,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Compression Piston
+  m_Text: Solar Panels
 --- !u!1 &8539568005886051171
 GameObject:
   m_ObjectHideFlags: 0
@@ -338,7 +338,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Increases Move Speed greatly.
+  m_Text: Generates energy when shuffled back into deck.
 --- !u!1 &8539568006326224667
 GameObject:
   m_ObjectHideFlags: 0
@@ -417,7 +417,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Burns fuel efficiently and cleanly.
+  m_Text: You gotta play the long-term game.
 --- !u!1 &8539568006574179466
 GameObject:
   m_ObjectHideFlags: 0
@@ -496,4 +496,4 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 2
+  m_Text: 0
