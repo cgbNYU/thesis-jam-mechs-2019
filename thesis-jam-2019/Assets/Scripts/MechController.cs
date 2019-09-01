@@ -35,10 +35,7 @@ public class MechController : MonoBehaviour
         moveVector = new Vector3(rewiredPlayer.GetAxis("Strafe"), 0, rewiredPlayer.GetAxis("Walk"));
         
         //Push that to the model
-        if (moveVector != Vector3.zero)
-        {
-            mechModel.Accelerate(moveVector);
-        }
+        mechModel.Accelerate(moveVector);       
     }
 
     void LookInput()
@@ -47,5 +44,6 @@ public class MechController : MonoBehaviour
         
         //clamp the values so you can't flip the camera
         //push to the model
+        mechModel.Look(lookVector);
     }
 }
