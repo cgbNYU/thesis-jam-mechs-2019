@@ -24,24 +24,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="4" />
+          <entry key="cs" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="4" />
+          <entry key="C#" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="3731" />
-          <entry key="txt" value="132" />
+          <entry key="cs" value="3814" />
+          <entry key="txt" value="170" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="3731" />
-          <entry key="PLAIN_TEXT" value="132" />
+          <entry key="C#" value="3814" />
+          <entry key="PLAIN_TEXT" value="170" />
         </counts>
       </usages-collector>
     </session>
@@ -69,35 +69,65 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/MechModel.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="106" column="8" lean-forward="true" selection-start-line="106" selection-start-column="8" selection-end-line="106" selection-end-column="8" />
+            <state relative-caret-position="455">
+              <caret line="120" column="27" selection-start-line="120" selection-start-column="27" selection-end-line="120" selection-end-column="27" />
               <folding>
-                <marker date="1567362644822" expanded="false" signature="6:78" ph="..." />
-                <marker date="1567362644822" expanded="true" signature="118:3275" ph="{...}" />
-                <marker date="1567362644822" expanded="true" signature="961:1237" ph="{...}" />
-                <marker date="1567362644822" expanded="true" signature="1295:1323" ph="{...}" />
-                <marker date="1567362644822" expanded="true" signature="1377:1814" ph="{...}" />
-                <marker date="1567362644822" expanded="true" signature="1856:2268" ph="{...}" />
-                <marker date="1567362644822" expanded="true" signature="2292:2859" ph="{...}" />
-                <marker date="1567362644822" expanded="true" signature="2577:2853" ph="/* if (Mathf.Abs(acceleration.x) &lt; .02) ... */" />
-                <marker date="1567362644822" expanded="true" signature="2883:2904" ph="{...}" />
-                <marker date="1567362644822" expanded="true" signature="2975:3139" ph="{...}" />
-                <marker date="1567362644822" expanded="true" signature="3180:3273" ph="{...}" />
-                <marker date="1567362644822" expanded="true" signature="3234:3267" ph="{...}" />
+                <marker date="1567363990219" expanded="false" signature="6:78" ph="..." />
+                <marker date="1567363990219" expanded="true" signature="118:3423" ph="{...}" />
+                <marker date="1567363990219" expanded="true" signature="961:1237" ph="{...}" />
+                <marker date="1567363990219" expanded="true" signature="1295:1323" ph="{...}" />
+                <marker date="1567363990219" expanded="true" signature="1377:1814" ph="{...}" />
+                <marker date="1567363990219" expanded="true" signature="1856:2268" ph="{...}" />
+                <marker date="1567363990219" expanded="true" signature="2292:2859" ph="{...}" />
+                <marker date="1567363990219" expanded="true" signature="2577:2853" ph="/* if (Mathf.Abs(acceleration.x) &lt; .02) ... */" />
+                <marker date="1567363990219" expanded="true" signature="2883:2904" ph="{...}" />
+                <marker date="1567363990219" expanded="true" signature="2975:3139" ph="{...}" />
+                <marker date="1567363990219" expanded="true" signature="3180:3421" ph="{...}" />
+                <marker date="1567363990219" expanded="true" signature="3233:3415" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraController.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/CardManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+            <state relative-caret-position="360">
+              <caret line="98" column="8" selection-start-line="98" selection-start-column="8" selection-end-line="98" selection-end-column="8" />
               <folding>
-                <marker date="1567285082951" expanded="false" signature="6:78" ph="..." />
-                <marker date="1567285082951" expanded="true" signature="125:737" ph="{...}" />
-                <marker date="1567285082951" expanded="true" signature="273:735" ph="{...}" />
+                <marker date="1567363085173" expanded="false" signature="6:165" ph="..." />
+                <marker date="1567363085173" expanded="true" signature="207:2960" ph="{...}" />
+                <marker date="1567363085173" expanded="true" signature="661:813" ph="{...}" />
+                <marker date="1567363085173" expanded="true" signature="734:807" ph="{...}" />
+                <marker date="1567363085173" expanded="true" signature="839:889" ph="{...}" />
+                <marker date="1567363085173" expanded="true" signature="936:1273" ph="{...}" />
+                <marker date="1567363085173" expanded="true" signature="1199:1267" ph="{...}" />
+                <marker date="1567363085173" expanded="true" signature="1328:2164" ph="{...}" />
+                <marker date="1567363085173" expanded="true" signature="1366:1625" ph="{...}" />
+                <marker date="1567363085173" expanded="true" signature="1556:1615" ph="{...}" />
+                <marker date="1567363085173" expanded="true" signature="1863:2043" ph="{...}" />
+                <marker date="1567363085173" expanded="true" signature="2111:2158" ph="{...}" />
+                <marker date="1567363085173" expanded="true" signature="2222:2612" ph="{...}" />
+                <marker date="1567363085173" expanded="true" signature="2287:2567" ph="{...}" />
+                <marker date="1567363085173" expanded="true" signature="2673:2957" ph="{...}" />
+                <marker date="1567363085173" expanded="true" signature="2737:2845" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Card.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="43" column="69" selection-start-line="43" selection-start-column="69" selection-end-line="43" selection-end-column="69" />
+              <folding>
+                <marker date="1567353262676" expanded="false" signature="6:114" ph="..." />
+                <marker date="1567353262676" expanded="true" signature="169:1985" ph="{...}" />
+                <marker date="1567353262676" expanded="true" signature="1153:1181" ph="{...}" />
+                <marker date="1567353262676" expanded="true" signature="1208:1597" ph="{...}" />
+                <marker date="1567353262676" expanded="true" signature="1704:1736" ph="{...}" />
+                <marker date="1567353262676" expanded="true" signature="1771:1983" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -112,12 +142,15 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MechModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MechController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Card.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CardManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MechController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CardManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MechModel.cs" />
       </list>
     </option>
@@ -167,7 +200,7 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Resources/Prefabs/BasicCard.prefab</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Scenes/SampleScene.unity</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Scripts/CardManager.cs</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
@@ -176,30 +209,6 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Resources/Prefabs/CompressionPiston.prefab</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Resources/Prefabs/CompressionPiston.prefab.meta</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Resources/Prefabs/ExposedCircuitry.prefab</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Resources/Prefabs/ExposedCircuitry.prefab.meta</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Resources/Prefabs/Generator.prefab</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Resources/Prefabs/Generator.prefab.meta</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Resources/Prefabs/IridiumSparkPlugs.prefab</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Resources/Prefabs/IridiumSparkPlugs.prefab.meta</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Resources/Prefabs/OiledHinges.prefab</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Resources/Prefabs/OiledHinges.prefab.meta</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Resources/Prefabs/PneumaticBoots.prefab</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Resources/Prefabs/PneumaticBoots.prefab.meta</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Resources/Prefabs/RevvingUp.prefab</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Resources/Prefabs/RevvingUp.prefab.meta</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Resources/Prefabs/RustedKnee.prefab</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Resources/Prefabs/RustedKnee.prefab.meta</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Resources/Prefabs/SolarPanels.prefab</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Resources/Prefabs/SolarPanels.prefab.meta</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Resources/Prefabs/SparkPlugs.prefab</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Resources/Prefabs/SparkPlugs.prefab.meta</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Resources/Prefabs/ThermalHeatSink.prefab</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Resources/Prefabs/ThermalHeatSink.prefab.meta</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Scenes/CardMaking.unity</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Assets/Scenes/CardMaking.unity.meta</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Deleted" />
@@ -329,7 +338,7 @@
       <workItem from="1567279030042" duration="604000" />
       <workItem from="1567280356225" duration="609000" />
       <workItem from="1567283166189" duration="2498000" />
-      <workItem from="1567349176996" duration="12507000" />
+      <workItem from="1567349176996" duration="13753000" />
     </task>
     <task id="LOCAL-00001" summary="added inputs to controller&#10;added some sudo to the model about movement">
       <created>1567285695623</created>
@@ -352,11 +361,25 @@
       <option name="project" value="LOCAL" />
       <updated>1567361363820</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added applymods function&#10;started jump">
+      <created>1567362753686</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1567362753686</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added applymods function&#10;started jump">
+      <created>1567363318688</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1567363318688</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16218000" />
+    <option name="totallyTimeSpent" value="17464000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -409,7 +432,8 @@
     <MESSAGE value="added inputs to controller&#10;added some sudo to the model about movement" />
     <MESSAGE value="basic physics in progress" />
     <MESSAGE value="basic movement complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="basic movement complete" />
+    <MESSAGE value="added applymods function&#10;started jump" />
+    <option name="LAST_COMMIT_MESSAGE" value="added applymods function&#10;started jump" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -423,18 +447,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/CameraController.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-          <folding>
-            <marker date="1567285082951" expanded="false" signature="6:78" ph="..." />
-            <marker date="1567285082951" expanded="true" signature="125:737" ph="{...}" />
-            <marker date="1567285082951" expanded="true" signature="273:735" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/MechController.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="410">
@@ -451,23 +463,75 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding>
+            <marker date="1567285082951" expanded="false" signature="6:78" ph="..." />
+            <marker date="1567285082951" expanded="true" signature="125:737" ph="{...}" />
+            <marker date="1567285082951" expanded="true" signature="273:735" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CardManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="98" column="8" selection-start-line="98" selection-start-column="8" selection-end-line="98" selection-end-column="8" />
+          <folding>
+            <marker date="1567363085173" expanded="false" signature="6:165" ph="..." />
+            <marker date="1567363085173" expanded="true" signature="207:2960" ph="{...}" />
+            <marker date="1567363085173" expanded="true" signature="661:813" ph="{...}" />
+            <marker date="1567363085173" expanded="true" signature="734:807" ph="{...}" />
+            <marker date="1567363085173" expanded="true" signature="839:889" ph="{...}" />
+            <marker date="1567363085173" expanded="true" signature="936:1273" ph="{...}" />
+            <marker date="1567363085173" expanded="true" signature="1199:1267" ph="{...}" />
+            <marker date="1567363085173" expanded="true" signature="1328:2164" ph="{...}" />
+            <marker date="1567363085173" expanded="true" signature="1366:1625" ph="{...}" />
+            <marker date="1567363085173" expanded="true" signature="1556:1615" ph="{...}" />
+            <marker date="1567363085173" expanded="true" signature="1863:2043" ph="{...}" />
+            <marker date="1567363085173" expanded="true" signature="2111:2158" ph="{...}" />
+            <marker date="1567363085173" expanded="true" signature="2222:2612" ph="{...}" />
+            <marker date="1567363085173" expanded="true" signature="2287:2567" ph="{...}" />
+            <marker date="1567363085173" expanded="true" signature="2673:2957" ph="{...}" />
+            <marker date="1567363085173" expanded="true" signature="2737:2845" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Card.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="43" column="69" selection-start-line="43" selection-start-column="69" selection-end-line="43" selection-end-column="69" />
+          <folding>
+            <marker date="1567353262676" expanded="false" signature="6:114" ph="..." />
+            <marker date="1567353262676" expanded="true" signature="169:1985" ph="{...}" />
+            <marker date="1567353262676" expanded="true" signature="1153:1181" ph="{...}" />
+            <marker date="1567353262676" expanded="true" signature="1208:1597" ph="{...}" />
+            <marker date="1567353262676" expanded="true" signature="1704:1736" ph="{...}" />
+            <marker date="1567353262676" expanded="true" signature="1771:1983" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/MechModel.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="106" column="8" lean-forward="true" selection-start-line="106" selection-start-column="8" selection-end-line="106" selection-end-column="8" />
+        <state relative-caret-position="455">
+          <caret line="120" column="27" selection-start-line="120" selection-start-column="27" selection-end-line="120" selection-end-column="27" />
           <folding>
-            <marker date="1567362644822" expanded="false" signature="6:78" ph="..." />
-            <marker date="1567362644822" expanded="true" signature="118:3275" ph="{...}" />
-            <marker date="1567362644822" expanded="true" signature="961:1237" ph="{...}" />
-            <marker date="1567362644822" expanded="true" signature="1295:1323" ph="{...}" />
-            <marker date="1567362644822" expanded="true" signature="1377:1814" ph="{...}" />
-            <marker date="1567362644822" expanded="true" signature="1856:2268" ph="{...}" />
-            <marker date="1567362644822" expanded="true" signature="2292:2859" ph="{...}" />
-            <marker date="1567362644822" expanded="true" signature="2577:2853" ph="/* if (Mathf.Abs(acceleration.x) &lt; .02) ... */" />
-            <marker date="1567362644822" expanded="true" signature="2883:2904" ph="{...}" />
-            <marker date="1567362644822" expanded="true" signature="2975:3139" ph="{...}" />
-            <marker date="1567362644822" expanded="true" signature="3180:3273" ph="{...}" />
-            <marker date="1567362644822" expanded="true" signature="3234:3267" ph="{...}" />
+            <marker date="1567363990219" expanded="false" signature="6:78" ph="..." />
+            <marker date="1567363990219" expanded="true" signature="118:3423" ph="{...}" />
+            <marker date="1567363990219" expanded="true" signature="961:1237" ph="{...}" />
+            <marker date="1567363990219" expanded="true" signature="1295:1323" ph="{...}" />
+            <marker date="1567363990219" expanded="true" signature="1377:1814" ph="{...}" />
+            <marker date="1567363990219" expanded="true" signature="1856:2268" ph="{...}" />
+            <marker date="1567363990219" expanded="true" signature="2292:2859" ph="{...}" />
+            <marker date="1567363990219" expanded="true" signature="2577:2853" ph="/* if (Mathf.Abs(acceleration.x) &lt; .02) ... */" />
+            <marker date="1567363990219" expanded="true" signature="2883:2904" ph="{...}" />
+            <marker date="1567363990219" expanded="true" signature="2975:3139" ph="{...}" />
+            <marker date="1567363990219" expanded="true" signature="3180:3421" ph="{...}" />
+            <marker date="1567363990219" expanded="true" signature="3233:3415" ph="{...}" />
           </folding>
         </state>
       </provider>

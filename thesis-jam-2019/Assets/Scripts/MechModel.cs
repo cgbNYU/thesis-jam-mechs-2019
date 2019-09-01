@@ -118,7 +118,7 @@ public class MechModel : MonoBehaviour
 
     public void ApplyMods(Card[] cards)
     {
-        for (int i = 0; i <= cards.Length; i++)
+        for (int i = 0; i < cards.Length; i++)
         {
             accelMod += cards[i].SpdMod;
             attackMod += cards[i].AtkMod;
