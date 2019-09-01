@@ -13,7 +13,7 @@ public class CardManager : MonoBehaviour
     public List<GameObject> CardPrefabs = new List<GameObject>();
     private float _timer = 0f; //Current time on the timer
     public float _timerMax = 30f; //Max time
-    private Canvas _canvas;
+    private Transform _parent;
     private GameObject[] _activeCardObjects;
     public MechModel Model;
     private void Update()
@@ -35,7 +35,7 @@ public class CardManager : MonoBehaviour
     //Initialize Vars
     private void Init()
     {
-        _canvas = GameObject.Find("Canvas").GetComponent<Canvas>();
+        _parent = GameObject.Find("Cards").transform;
         _discard = new Stack<Card>();
         _activeCards = new Card[5];
         _activeCardObjects = new GameObject[5];
@@ -93,8 +93,8 @@ public class CardManager : MonoBehaviour
             if(_deck.Count == 0)
                 ShuffleDeck();
             _activeCards[i] = _deck.Pop();
-            _activeCardObjects[i] = Instantiate(_activeCards[i].gameObject, new Vector3(x, 100, 1), Quaternion.identity, _canvas.transform);
-            x += 300;
+            _activeCardObjects[i] = Instantiate(_activeCards[i].gameObject, new Vector3(x, 100, 1), Quaternion.identity, _parent);
+            x += 200;
         }
         //Model.ApplyMods(_activeCards);
     }
