@@ -34,3 +34,9 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+.idea/.idea.Thesis/riderModule.iml
+.idea/.idea.Thesis/.idea/encodings.xml
+.idea/.idea.Thesis/.idea/indexLayout.xml
+.idea/.idea.Thesis/.idea/misc.xml
+.idea/.idea.Thesis/.idea/modules.xml
+.idea/.idea.Thesis/.idea/vcs.xml

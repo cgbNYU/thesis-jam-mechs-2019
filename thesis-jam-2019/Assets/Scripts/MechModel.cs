@@ -8,8 +8,6 @@ public class MechModel : MonoBehaviour
     //Public
     public float Drag = .1f; //has to be less than 1
     public float Accel = 5f;
-    public float Jump = 12f;
-    public float Attack = 10f;
     public float Gravity = 10;
     public float CoFriction = .5f; //0 to 1
     public float Mass = 10;
@@ -25,11 +23,6 @@ public class MechModel : MonoBehaviour
     private float rotationY;
     private Quaternion originalRotation;
     private Camera cam;
-    private float accelMod;
-    private float energy;
-    private float jumpMod;
-    private float attackMod;
-    private bool jumping;
     
     
     // Start is called before the first frame update
@@ -39,13 +32,6 @@ public class MechModel : MonoBehaviour
         acceleration = Vector3.zero;
         originalRotation = transform.localRotation;
         cam = Camera.main;
-
-        accelMod = Accel;
-        energy = 0;
-        jumpMod = Jump;
-        attackMod = Attack;
-
-        jumping = false;
     }
 
     // Update is called once per frame
@@ -65,7 +51,7 @@ public class MechModel : MonoBehaviour
         right.Normalize();
 
         Vector3 camRelativeVector = forward * accelerateVector.z + right * accelerateVector.x;
-        acceleration += camRelativeVector * accelMod * Time.deltaTime;
+        acceleration += camRelativeVector * Accel * Time.deltaTime;
     }
 
     public void Look(Vector3 lookVector)
@@ -102,11 +88,6 @@ public class MechModel : MonoBehaviour
         }*/
     }
 
-    public void Fall()
-    {
-        
-    }
-
     public static float ClampAngle(float angle, float min, float max)
     {
         if (angle < -360f)
@@ -114,13 +95,5 @@ public class MechModel : MonoBehaviour
         if (angle > 360f)
             angle -= 360f;
         return Mathf.Clamp(angle, min, max);
-    }
-
-    public void ApplyMods(Card[] cards)
-    {
-        for (int i = 0; i <= cards.Length; i++)
-        {
-            
-        }
     }
 }
