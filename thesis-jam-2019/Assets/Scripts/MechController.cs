@@ -20,6 +20,7 @@ public class MechController : MonoBehaviour
     void Start()
     {
         rewiredPlayer = ReInput.players.GetPlayer(PlayerNum);
+        mechModel = GetComponent<MechModel>();
     }
 
     // Update is called once per frame
@@ -31,9 +32,13 @@ public class MechController : MonoBehaviour
 
     void MoveInput()
     {
-        moveVector = new Vector3(rewiredPlayer.GetAxis("Strafe"), rewiredPlayer.GetAxis("Walk"));
+        moveVector = new Vector3(rewiredPlayer.GetAxis("Strafe"), 0, rewiredPlayer.GetAxis("Walk"));
         
         //Push that to the model
+        if (moveVector != Vector3.zero)
+        {
+            mechModel.Accelerate(moveVector);
+        }
     }
 
     void LookInput()
